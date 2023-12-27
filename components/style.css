@@ -1,0 +1,435 @@
+/* Reset some default styles */
+h1 {
+  font-style: normal;
+  color: #40403f;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  color: #555;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #555;
+}
+
+h4 {
+  margin: 0;
+  padding: -3px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #555;
+}
+
+p {
+  margin: 0;
+  padding-bottom: -5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  color: #555;
+}
+
+/* Set default font and background color */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  font-style: normal;
+  color: #555;
+}
+
+/* Header styles */
+#dhead {
+  padding-top: 2%;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#dpic img {
+  border-radius: 30%;
+  max-width: 200px;
+  height: auto;
+}
+
+#ddesc {
+  padding-left: 20px;
+  max-width: 500px;
+}
+
+#dico-container {
+  display: flex;
+  margin-top: 10px;
+}
+
+#dico {
+  margin-right: 10px;
+}
+
+.iico {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+/* Bio section styles */
+#bio {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+/* History section styles */
+#history {
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, #ffffff, #000000, #ffffff);
+  margin: 20px 0;
+}
+
+
+.entry {
+  position: relative;
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.timespan {
+  width: 150px;
+  padding-right: 20px;
+  text-align: right;
+  font-weight: bold;
+  color: #555;
+}
+
+.ico {
+  position: relative;
+}
+
+.ico img {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  border-color: #333;
+  object-fit: cover;
+}
+
+.entry-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.connector-line {
+  position: absolute;
+  height: 140%;
+  width: 2px;
+  background-color: #555;
+  left: -25px;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.desc {
+  padding-left: 20px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.htxt {
+  margin-bottom: 10px;
+  font-size: 18px;
+  /* font-weight: bold; */
+  color: #40403f;
+}
+
+.hassets {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hasset {
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.ctitle {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 5px;
+  margin-left: 0%;
+  color: #40403f;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.colapse-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items:flex-start;
+}
+
+.card {
+  flex: 0 0 48%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ccimg {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.cdesc {
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Teaching section styles */
+.tul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.til {
+  margin-top: 10px;
+}
+
+/* projects section styles */
+.project {
+  display: flex;
+  margin-bottom: 20px;
+  padding-top: 5%;
+}
+
+.pico {
+  flex: 0 0 100px;
+  margin-right: 20px;
+}
+
+.pico img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.pdesc {
+  flex: 1;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+}
+
+.dot {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: #3498db;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 12px;
+  /* font-weight: bold; */
+  z-index: 1;
+}
+
+.experience {
+  position: relative;
+  padding: 20px;
+  margin-left: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.experiences timebox {
+  position: absolute;
+  width: 45px;
+  height: 15px;
+  border-radius: 18%;
+  background-color: #333;
+  margin-top: 40px;
+  margin-left: -150px;
+  color: #f8f8f8;
+  font-size: 12px;
+  text-align: center;
+  resize: both;
+}
+
+.experiences short-line {
+  position: absolute;
+  width: 1.3px;
+  height: 30px;
+  background-color: #0c1013;
+  margin-top: -15px;
+  margin-left: 21.22px;
+  transform: translateX(-50%);
+  z-index: 0;
+  resize: both;
+}
+
+.experiences time-line {
+  position: absolute;
+  width: 1.3px;
+  height: 50px;
+  background-color: #0c1013;
+  margin-top: -35px;
+  margin-left: -62px;
+  transform: translateX(-50%);
+  z-index: 0;
+  resize: both;
+}
+
+
+/* Extra */
+.experiences {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0;
+}
+
+.experiences li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.experiences li img {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #808080;
+  margin-right: 20px;
+  border-radius: 30%;
+}
+
+.experiences li .experiences-content {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.experiences li .experiences-content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.experiences li .experiences-content p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.experiences li .experiences-content span {
+  font-size: 14px;
+  color: gray;
+}
+
+/* Projects */
+
+.ctitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.project {
+  display: flex;
+}
+
+.pico {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.pico img {
+  max-width: 100%;
+  border-radius: 8px;
+  border-color: #333;
+}
+
+.pdesc {
+  flex: 2;
+}
+
+.pdesc a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pend {
+  flex: 1;
+}
+
+/* retractable content */
+.header {
+  cursor: pointer;
+}
+
+.triangle {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 12px solid black;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: -20px;
+  transition: transform 0.3s;
+  transform: rotate(180deg);
+}
+
+.content {
+  display: block;
+}
+
+.expanded .triangle {
+  transform: rotate(90deg);
+}
+
+.expanded .content {
+  display: none;
+}

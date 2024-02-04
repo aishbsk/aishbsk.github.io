@@ -1,40 +1,45 @@
 /* Reset some default styles */
+/* Heading 1 */
 h1 {
   font-style: normal;
   color: #40403f;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 
+/* Heading 2 */
 h2 {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-style: normal;
   color: #555;
 }
 
+/* Heading 3 */
 h3 {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-style: italic;
   font-weight: normal;
   color: #555;
 }
 
+/* Heading 4 */
 h4 {
   margin: 0;
   padding: -3px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-weight: bold;
   font-size: 15px;
   color: #555;
 }
 
+/* Paragraph */
 p {
   margin: 0;
   padding-bottom: -5%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-style: normal;
   color: #555;
 }
@@ -43,11 +48,13 @@ p {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Helvetica', sans-serif;
   background-color: #f8f8f8;
   font-style: normal;
   color: #555;
 }
+
+
 
 /* Header styles */
 #dhead {
@@ -249,7 +256,7 @@ hr {
 .container {
   max-width: 800px;
   margin: 0 auto;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   position: relative;
 }
 

@@ -53,6 +53,16 @@ body {
   color: #000000;;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px; /* Adjust the height as needed */
+  text-align: center;
+  padding: 20px;
+}
+
+
 /* Header styles */
 #dhead {
   padding-top: 2%;
@@ -103,7 +113,7 @@ body {
 hr {
   border: 0;
   height: 1px;
-  background: linear-gradient(to right, #ffffff, #9a9999, #ffffff);
+  background: linear-gradient(to right, #ffffff, #777575, #ffffff);
   margin: 20px 0;
 }
 
@@ -429,4 +439,10 @@ hr {
 
 .expanded .content {
   display: none;
+}
+
+.code-icon {
+  font-family: 'Courier New', monospace;
+  font-size: 1.2em;
+  color: #333; 
 }

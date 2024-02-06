@@ -54,13 +54,20 @@ body {
 }
 
 footer {
-  display: flex;
+  display:block;
   align-items: center;
   justify-content: center;
-  height: 20px; /* Adjust the height as needed */
   text-align: center;
   padding: 20px;
 }
+
+footer hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, #ffffff, #777575, #ffffff);
+  margin: 20px 0;
+}
+
 
 
 /* Header styles */

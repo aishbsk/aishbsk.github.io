@@ -80,7 +80,7 @@ footer hr {
 }
 
 #dpic img {
-  border-radius: 30%;
+  border-radius: 100%;
   max-width: 200px;
   height: auto;
 }
@@ -286,52 +286,32 @@ hr {
 .experience {
   position: relative;
   padding: 20px;
-  margin-left: 30px;
   background-color: #fff;
   border-radius: 5px;
   z-index: 1;
 }
 
-.logo {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  margin-right: 20px;
-}
-
 .experiences timebox {
+  display: block; /* or inline-block, depending on your layout needs */
   position: absolute;
   width: 45px;
   height: 15px;
   border-radius: 18%;
-  background-color: #333;
-  margin-top: 40px;
-  margin-left: -150px;
-  color: #f8f8f8;
+  margin-top: 43px;
+  margin-left: -115px;
+  color: #333;
   font-size: 12px;
-  text-align: center;
-  resize: both;
+  text-align: right;
 }
 
-.experiences short-line {
-  position: absolute;
-  width: 1.3px;
-  height: 30px;
-  background-color: #0c1013;
-  margin-top: -15px;
-  margin-left: 21.22px;
-  transform: translateX(-50%);
-  z-index: 0;
-  resize: both;
-}
 
 .experiences time-line {
   position: absolute;
   width: 1.3px;
   height: 50px;
   background-color: #0c1013; 
-  margin-top: -35px;
-  margin-left: -62px;
+  margin-top: -30px;
+  margin-left: -42px;
   transform: translateX(-50%);
   z-index: 0;
   resize: both;
@@ -356,7 +336,8 @@ hr {
   width: 40px;
   height: 40px;
   border: 2px solid #808080;
-  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
   border-radius: 30%;
 }
 
@@ -384,7 +365,8 @@ hr {
 
 .ctitle {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 2%;
+  margin-left: 2%;
 }
 
 .project {
@@ -393,7 +375,7 @@ hr {
 
 .pico {
   flex: 1;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .pico img {
@@ -428,9 +410,8 @@ hr {
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
   border-bottom: 12px solid black;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-left: -20px;
+  margin-top: 1%;
+  margin-left: 2%;
   transition: transform 0.3s;
   transform: rotate(180deg);
 }

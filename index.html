@@ -10,17 +10,23 @@
   <link rel="stylesheet" href="path/to/font-awesome/css/all.min.css">
 
   <!-- header + bio pic -->
-  <div id="dhead" class="container">
-    <div class="row">
-      <div id="dpic">
-        <img src="./assets/images/profile_pic.png" class="ppic" />
-      </div>
-      <div id="ddesc">
-        <h1>Aishwarya Balaji</h1>
-        <p>I'm a CS & Econ student at UPenn (M&T). <br> Interested in building cool tech.</p>
-        <div id="desco" style="padding: 20px;">
-          <a href="https://www.linkedin.com/in/aishbsk/"><img src="./assets/images/linkedin.png" class="iico"/></a>
-          <a href="https://www.github.com/aishwaryabsk/"><img src="./assets/images/github_logo.jpeg" class="iico"/></a>
+  <div id="dhead">
+    <div id="dpic">
+      <img src="./assets/images/profile_pic.png" alt="Aishwarya Balaji" />
+    </div>
+    <div id="ddesc">
+      <h1>Aishwarya Balaji</h1>
+      <p>CS & Econ student at UPenn (M&T) <br> Passionate about building cool tech</p>
+      <div id="dico-container">
+        <div id="dico">
+          <a href="https://www.linkedin.com/in/aishbsk/">
+            <img class="iico" src="./assets/images/linkedin.png" alt="LinkedIn" />
+          </a>
+        </div>
+        <div id="dico">
+          <a href="https://www.github.com/aishwaryabsk/">
+            <img class="iico" src="./assets/images/github_logo.jpeg" alt="GitHub" />
+          </a>
         </div>
       </div>
     </div>
@@ -28,13 +34,11 @@
   <hr>
 
   <!-- experiences -->
-  <div class="experiences">
-
+  <nav class="experiences">
     <div class="header" onclick="toggleContent()">
       <div class="colapse-row">
         <span class="triangle"></span>
-        <div class="ctitle">Experience</div>
-        <hr>
+        <h2 class="ctitle">Experience</h2>
       </div>
     </div>
     <div class="content">
@@ -45,8 +49,22 @@
           </a>
           
           <div class="experiences-content">
+            <timebox>2024</timebox>
+            <h2>Amazon</h2>
+            <time-line></time-line>
+            <h4>SDE Intern, Environment Modeling, Mapping @ Prime Air </h4>
+            <p>Developed core tooling used across 5+ teams within Prime Air to access, inspect, and visualize various geospatial data sources.</p>
+          </div>
+        </li>
+        <li>
+          <a href="https://www.aboutamazon.com/news/tag/prime-air">
+            <img src="./assets/images/amazon_logo.jpeg" alt="Amazon's logo">
+          </a>
+          
+          <div class="experiences-content">
             <timebox>2023</timebox>
             <h2>Amazon</h2>
+            <time-line></time-line>
             <h4>SDE Intern, Path Planning @ Prime Air </h4>
             <p>Researched & implemented strategies relating to path planning (images
               developed through project were presented at IROS), Improved mission testing capabilities</p>
@@ -117,7 +135,7 @@
         </li>
       </ul>
     </div>
-  </div>
+  </nav>
   
   
 
@@ -206,10 +224,37 @@
             <img src="./assets/images/upenn_logo.jpeg" alt="UPenn's logo"> 
           </a>
           <div class="experiences-content">
+           <timebox>2025</timebox>
+            <h2>CIS 5800 Teaching Assistant</h2>
+            <time-line></time-line>
+            <h4>University of Pennsylvania, <i>Dr. Lingie Liu</i></h4>
+            <p>Machine Perception</p>
+          </div>
+        </li>
+
+        <li>
+          <a href="https://catalog.upenn.edu/courses/cis/#:~:text=CIS%C2%A04120%20Introduction%20to%20Human%20Computer%20Interaction" target="_blank">
+            <img src="./assets/images/upenn_logo.jpeg" alt="UPenn's logo"> 
+          </a>
+          <div class="experiences-content">
+           <timebox>2025</timebox>
+            <h2>CIS 5120 Teaching Assistant</h2>
+            <time-line></time-line>
+            <h4>University of Pennsylvania, <i>Dr. Andrew Head</i></h4>
+            <p>Human Computer Interaction</p>
+          </div>
+        </li>
+
+        <li>
+          <a href="https://catalog.upenn.edu/courses/cis/#:~:text=CIS%C2%A04120%20Introduction%20to%20Human%20Computer%20Interaction" target="_blank">
+            <img src="./assets/images/upenn_logo.jpeg" alt="UPenn's logo"> 
+          </a>
+          <div class="experiences-content">
            <timebox>2024</timebox>
-            <h2>CIS 4120/5120 Head Teaching Assistant</h2>
+            <h2>CIS 5120 Head Teaching Assistant</h2>
+            <time-line></time-line>
             <h4>University of Pennsylvania, <i>Dr. Danaë Metaxa</i></h4>
-            <p>Office Hours, UI/UX Bootcamp, maintained website for Human Computer Interaction at the Unviversity of Pennsylvania</p>
+            <p>Human Computer Interaction</p>
           </div>
         </li>
 
@@ -233,9 +278,9 @@
           <div class="experiences-content">
             <time-line></time-line>
             <timebox>2024</timebox>
-            <h2>CIS 4120/5120 Teaching Assistant</h2>
+            <h2>CIS 5120 Teaching Assistant</h2>
             <h4>University of Pennsylvania, <i>Dr. Andrew Head</i></h4>
-            <p>Office Hours, UI/UX Bootcamp, maintained website for Human Computer Interaction at the Unviversity of Pennsylvania</p>
+            <p>Human Computer Interaction</p>
           </div>
         </li>
 
@@ -248,8 +293,7 @@
             <timebox>2023</timebox>
             <h2>CIS 2400 Teaching Assistant</h2>
             <h4>University of Pennsylvania, <i>Dr. Benjamin Lee</i></h4>
-            <p>Hosted Reciation, Office Hours, Midterm Review Sessions for Introduction Computer Architecture at the
-              Unviversity of Pennsylvania</p>
+            <p>Computer Architecture</p>
           </div>
         </li>
       </ul>

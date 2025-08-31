@@ -1,309 +1,240 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Aishwarya Balaji</title>
-  <link rel="stylesheet" type="text/css" href="components/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="path/to/font-awesome/css/all.min.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aishwarya Balaji — CS & Econ @ UPenn (M&T)</title>
+  <meta name="description" content="University of Pennsylvania M&amp;T (CS &amp; Finance). Builds ML, geospatial, and systems tools; Prev @ Amazon Prime Air, GRASP, Apple, Google.">
 
-  <!-- header + bio pic -->
-  <div id="dhead">
-    <div id="dpic">
-      <img src="./assets/images/profile_pic.png" alt="Aishwarya Balaji" />
-    </div>
-    <div id="ddesc">
-      <h1>Aishwarya Balaji</h1>
-      <p>CS & Econ student at UPenn (M&T) <br> Passionate about building cool tech</p>
-      <div id="dico-container">
-        <div id="dico">
-          <a href="https://www.linkedin.com/in/aishbsk/">
-            <img class="iico" src="./assets/images/linkedin.png" alt="LinkedIn" />
-          </a>
-        </div>
-        <div id="dico">
-          <a href="https://www.github.com/aishwaryabsk/">
-            <img class="iico" src="./assets/images/github_logo.jpeg" alt="GitHub" />
-          </a>
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+
+  <meta property="og:title" content="Aishwarya Balaji" />
+  <meta property="og:description" content="CS & Econ @ UPenn (M&T). Passionate about building cool tech." />
+  <meta property="og:image" content="./assets/images/profile_pic.png" />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="./components/style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="wrap">
+    <header>
+      <div class="hero">
+        <img class="avatar" src="./assets/images/profile_pic.png" alt="Portrait of Aishwarya Balaji" loading="eager" />
+        <div>
+          <h1 class="name">Aishwarya Balaji</h1>
+          <p class="tagline">I'm a graduate of the University of Pennsylvania's M&amp;T Program (CS BSE &amp; Finance at Wharton) with a masters degree in CS. I've built ML, path planning, geospatial, and systems services.</p>
+          <div></div>
+          <nav class="icons" aria-label="Social links">
+            <a class="icon" href="https://www.linkedin.com/in/aishbsk/" aria-label="LinkedIn" rel="me">
+              <!-- LinkedIn SVG -->
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM14.5 9c-2.49 0-4.5 2.01-4.5 4.5V21h4v-6c0-1.105.895-2 2-2s2 .895 2 2v6h4v-7.5C22 11.01 19.99 9 17.5 9c-1.21 0-2.36.54-3.12 1.41A4.482 4.482 0 0 0 14.5 9z"/></svg>
+            </a>
+            <a class="icon" href="https://github.com/aishbsk" aria-label="GitHub" rel="me">
+              <!-- GitHub SVG -->
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58 0-.28-.01-1.02-.02-2-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.74.08-.74 1.21.09 1.85 1.25 1.85 1.25 1.07 1.84 2.8 1.31 3.48 1 .11-.78.42-1.31.76-1.62-2.67-.3-5.48-1.34-5.48-5.95 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.24 2.87.12 3.17.77.84 1.24 1.9 1.24 3.22 0 4.62-2.81 5.65-5.49 5.95.43.37.81 1.1.81 2.22 0 1.61-.02 2.91-.02 3.31 0 .32.21.7.83.58A12 12 0 0 0 12 .5z"/></svg>
+            </a>
+          </nav>
+
+          <!-- anchor chips -->
+          <nav class="topnav" aria-label="Page sections">
+            <a class="chip" href="#experience">Experience</a>
+            <a class="chip" href="#education">Education</a>
+            <a class="chip" href="#teaching">Teaching</a>
+          </nav>
         </div>
       </div>
-    </div>
+    </header>
+
+    <main id="main">
+      <!-- Experience -->
+      <section id="experience" aria-labelledby="exp-title">
+        <div class="section-title">
+          <h2 id="exp-title">Experience</h2>
+        </div>
+        <details open>
+          <summary><span class="caret" aria-hidden="true"></span> Roles</summary>
+          <div class="content">
+            <ol class="timeline">
+              <li>
+                <time class="time" datetime="2024">2024</time>
+                <img class="logo" src="./assets/images/amazon_logo.jpeg" alt="Amazon logo" loading="lazy" />
+                <div class="item">
+                  <h3><a href="https://www.aboutamazon.com/news/tag/prime-air">Amazon — Prime Air</a></h3>
+                  <p class="role">SDE Intern · Environment Modeling &amp; Mapping</p>
+                  <p>Built core tooling used across 5+ teams to access, inspect, and visualize diverse geospatial data sources.</p>
+                </div>
+              </li>
+              <li>
+                <time class="time" datetime="2023">2023</time>
+                <img class="logo" src="./assets/images/amazon_logo.jpeg" alt="Amazon logo" loading="lazy" />
+                <div class="item">
+                  <h3><a href="https://www.aboutamazon.com/news/tag/prime-air">Amazon — Prime Air</a></h3>
+                  <p class="role">SDE Intern · Path Planning</p>
+                  <p>Researched &amp; implemented path-planning strategies (visuals presented at IROS). Improved mission testing capabilities.</p>
+                </div>
+              </li>
+              <li>
+                <time class="time" datetime="2022">2022</time>
+                <img class="logo" src="./assets/images/google_logo.jpeg" alt="Google logo" loading="lazy" />
+                <div class="item">
+                  <h3><a href="https://research.google/outreach/csrmp/">Google</a></h3>
+                  <p class="role">CS Research Mentorship Program</p>
+                  <p>Paired with Google researchers; Invited back for alumni panel, Google’s PhD Summit, and Research@NYC.</p>
+                </div>
+              </li>
+              <li>
+                <time class="time" datetime="2021">2021</time>
+                <img class="logo" src="./assets/images/NYCS_Logo.jpeg" alt="National Youth Science Camp logo" loading="lazy" />
+                <div class="item">
+                  <h3><a href="https://www.nysacademy.org/congrats-to-the-2021-delegates-representing-north-carolina/">National Youth Science Camp</a></h3>
+                  <p class="role">North Carolina Delegate</p>
+                  <p>Represented NC; Presented research findings and introduced a guest lecturer.</p>
+                </div>
+              </li>
+              <li>
+                <time class="time" datetime="2021">2021</time>
+                <img class="logo" src="./assets/images/bank_of_america_logo.jpeg" alt="Bank of America logo" loading="lazy" />
+                <div class="item">
+                  <h3><a href="https://www.goldmansachs.com/careers/blog/posts/fintech-focus.html">FinTech Focus — Bank of America Cohort</a></h3>
+                  <p class="role">Fellow</p>
+                  <p>Built a financial sentiment visualization linking social sources via API.</p>
+                </div>
+              </li>
+              <li>
+                <time class="time" datetime="2020">2020</time>
+                <img class="logo" src="./assets/images/apple_logo.jpeg" alt="Apple logo" loading="lazy" />
+                <div class="item">
+                  <h3><a href="https://www.theverge.com/2017/8/4/16092248/apple-engineering-technology-summer-camp-kids-product-design">Apple — Engineering &amp; Technology Program</a></h3>
+                  <p class="role">Participant (1 of 25 nationally)</p>
+                  <p>Explored engineering at Apple; Collaborated with SWE, MEAM, CE engineers to build a product.</p>
+                </div>
+              </li>
+              <li>
+                <time class="time" datetime="2019">2019–20</time>
+                <img class="logo" src="./assets/images/ncsu_logo.jpeg" alt="North Carolina State University logo" loading="lazy" />
+                <div class="item">
+                  <h3><a href="https://datascience.ericchi.com/">North Carolina State University — DST Program</a></h3>
+                  <p class="role">Data Science Research Intern</p>
+                  <p>Modeled links between cognitive health and dementia using PCA and non-parametric smoothing.</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </details>
+      </section>
+
+      <!-- Education -->
+      <section id="education" aria-labelledby="edu-title" style="margin-top:36px">
+        <div class="section-title"><h2 id="edu-title">Education</h2></div>
+        <details open>
+          <summary><span class="caret" aria-hidden="true"></span> Degrees</summary>
+          <div class="content">
+            <ol class="timeline">
+              <li>
+                <time class="time" datetime="2025">2024–25</time>
+                <img class="logo" src="./assets/images/upenn_logo.jpeg" alt="UPenn logo" loading="lazy" />
+                <div class="item">
+                  <h3>School of Engineering & Applied Science</h3>
+                  <p class="role">M.S.E. Computer Science · Philadelphia, PA</p>
+                </div>
+              </li>
+              <li>
+                <time class="time" datetime="2025">2021–25</time>
+                <img class="logo" src="./assets/images/upenn_logo.jpeg" alt="UPenn logo" loading="lazy" />
+                <div class="item">
+                  <h3>School of Engineering &amp; Applied Science</h3>
+                  <p class="role">B.S.E. Computer Science · Philadelphia, PA</p>
+                  <p>Jerome Fisher Management &amp; Technology Program</p>
+                </div>
+              </li>
+              <li>
+                <time class="time" datetime="2025">2021–25</time>
+                <img class="logo" src="./assets/images/upenn_logo.jpeg" alt="UPenn logo" loading="lazy" />
+                <div class="item">
+                  <h3>The Wharton School</h3>
+                  <p class="role">B.S. in Economics, Finance · Philadelphia, PA</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </details>
+      </section>
+
+      <!-- Teaching -->
+      <section id="teaching" aria-labelledby="teach-title">
+        <div class="section-title"><h2 id="teach-title">Teaching</h2></div>
+        <details open>
+          <summary><span class="caret" aria-hidden="true"></span> Courses</summary>
+          <div class="content">
+            <ol class="timeline">
+              <li>
+                <time class="time" datetime="2025">2025</time>
+                <img class="logo" src="./assets/images/upenn_logo.jpeg" alt="UPenn logo" loading="lazy" />
+                <div class="item">
+                  <h3>CIS 5800 — Machine Perception</h3>
+                  <p class="role">Teaching Assistant · University of Pennsylvania · <i>Dr. Lingjie Liu</i></p>
+                  <p>Assisted with course content and student projects in machine perception.</p>
+                </div>
+              </li>
+              <li>
+                <time class="time" datetime="2025">2025</time>
+                <img class="logo" src="./assets/images/upenn_logo.jpeg" alt="UPenn logo" loading="lazy" />
+                <div class="item">
+                  <h3>CIS 5120 — Human-Computer Interaction</h3>
+                  <p class="role">Head Teaching Assistant · University of Pennsylvania · <i>Dr. Andrew Head</i></p>
+                  <p>Led TA team; coordinated assignments, rubrics, and student support.</p>
+                </div>
+              </li>
+              <li>
+                <time class="time" datetime="2024">2024</time>
+                <img class="logo" src="./assets/images/upenn_logo.jpeg" alt="UPenn logo" loading="lazy" />
+                <div class="item">
+                  <h3>CIS 5120 — Human-Computer Interaction</h3>
+                  <p class="role">Head Teaching Assistant · University of Pennsylvania · <i>Dr. Danaë Metaxa</i></p>
+                  <p>Course operations and pedagogy for HCI.</p>
+                </div>
+              </li>
+              <li>
+                <time class="time" datetime="2024">2024</time>
+                <img class="logo" src="./assets/images/m&t_logo.png" alt="M&T Program logo" loading="lazy" />
+                <div class="item">
+                  <h3>M&amp;T Immersive</h3>
+                  <p class="role">Teaching Assistant · University of Pennsylvania</p>
+                  <p>Annual Jerome Fisher M&amp;T Immersive weekend; site visits incl. Tesla and Visa Lab.</p>
+                </div>
+              </li>
+              <li>
+                <time class="time" datetime="2024">2024</time>
+                <img class="logo" src="./assets/images/upenn_logo.jpeg" alt="UPenn logo" loading="lazy" />
+                <div class="item">
+                  <h3>CIS 5120 — Human-Computer Interaction</h3>
+                  <p class="role">Teaching Assistant · University of Pennsylvania · <i>Dr. Andrew Head</i></p>
+                  <p>Supported lectures, studio, and evaluations.</p>
+                </div>
+              </li>
+              <li>
+                <time class="time" datetime="2023">2023</time>
+                <img class="logo" src="./assets/images/upenn_logo.jpeg" alt="UPenn logo" loading="lazy" />
+                <div class="item">
+                  <h3>CIS 2400 — Computer Architecture</h3>
+                  <p class="role">Teaching Assistant · University of Pennsylvania · <i>Dr. Benjamin Lee</i></p>
+                  <p>Helped students with pipeline design, caching, and performance analysis.</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </details>
+      </section>
+    </main>
+
+    <footer>
+      Designed by Aishwarya Balaji
+    </footer>
   </div>
-  <hr>
-
-  <!-- experiences -->
-  <nav class="experiences">
-    <div class="header" onclick="toggleContent()">
-      <div class="colapse-row">
-        <span class="triangle"></span>
-        <h2 class="ctitle">Experience</h2>
-      </div>
-    </div>
-    <div class="content">
-      <ul>
-        <li>
-          <a href="https://www.aboutamazon.com/news/tag/prime-air">
-            <img src="./assets/images/amazon_logo.jpeg" alt="Amazon's logo">
-          </a>
-          
-          <div class="experiences-content">
-            <timebox>2024</timebox>
-            <h2>Amazon</h2>
-            <time-line></time-line>
-            <h4>SDE Intern, Environment Modeling, Mapping @ Prime Air </h4>
-            <p>Developed core tooling used across 5+ teams within Prime Air to access, inspect, and visualize various geospatial data sources.</p>
-          </div>
-        </li>
-        <li>
-          <a href="https://www.aboutamazon.com/news/tag/prime-air">
-            <img src="./assets/images/amazon_logo.jpeg" alt="Amazon's logo">
-          </a>
-          
-          <div class="experiences-content">
-            <timebox>2023</timebox>
-            <h2>Amazon</h2>
-            <time-line></time-line>
-            <h4>SDE Intern, Path Planning @ Prime Air </h4>
-            <p>Researched & implemented strategies relating to path planning (images
-              developed through project were presented at IROS), Improved mission testing capabilities</p>
-          </div>
-        </li>
-        <li>
-          <a href="https://research.google/outreach/csrmp/">
-            <img src="./assets/images/google_logo.jpeg" alt="Google's logo">
-          </a>
-          <div class="experiences-content">
-            <time-line></time-line>
-            <timebox>2022</timebox>
-            <h2>Google</h2>
-            <h4>CS Research Mentorship Program</h4>
-            <p>Selected for Google's program pairing students with researchers from Google Research. Invited back for
-              an alumni panel and invited to Google's PhD Summit</p>
-          </div>
-        </li>
-        <li>
-          <a href="https://www.nysacademy.org/congrats-to-the-2021-delegates-representing-north-carolina/"> 
-            <img src="./assets/images/NYCS_Logo.jpeg" alt="National Youth Science Camp's logo">
-          </a>
-          <div class="experiences-content">
-            <time-line></time-line>
-            <timebox>2021</timebox>
-            <h2>National Youth Science Camp</h2>
-            <h4>North Carolina Delegate</h4>
-            <p>Represented North Carolina as a US Delegate for the NYSC Camp. Presented research findings via a 30 minute video and had the honor to introduce a guest lecturer</p>
-          </div>
-        </li>
-        <li>
-          <a href="https://www.goldmansachs.com/careers/blog/posts/fintech-focus.html">
-            <img src="./assets/images/bank_of_america_logo.jpeg" alt="Bank of America's logo">
-          </a>
-          <div class="experiences-content">
-            <time-line></time-line>
-            <timebox>2021</timebox>
-            <h2>FinTech Focus</h2>
-            <h4>FinTech Focus Fellow, Bank of America Cohort</h4>
-            <p>Developed Financial Sentiment Analysis Visualization using API displaying sentiment information from
-              various social media platforms</p>
-          </div>
-        </li>
-        <li>
-          <a href="https://www.theverge.com/2017/8/4/16092248/apple-engineering-technology-summer-camp-kids-product-design">
-            <img src="./assets/images/apple_logo.jpeg" alt="Apple Engineering Technology Program">
-          </a>
-          <div class="experiences-content">
-            <time-line></time-line>
-            <timebox>2020</timebox>
-            <h2>Apple</h2>
-            <h4>Engineering & Technology Program</h4>
-            <p>1 of 25 students selected nationally to experience engineering at Apple and develop a product with Apple Engineers (ex. SWE, MEAM, CE)</p>
-          </div>
-        </li>
-        <li>
-          <a href="https://datascience.ericchi.com/">
-            <img src="./assets/images/ncsu_logo.jpeg" alt="North Carolina State University's logo">
-          </a>
-          <div class="experiences-content">
-            <time-line></time-line>
-            <timebox>2019-20</timebox>
-            <h2>North Carolina State University</h2>
-            <h4>Data Science Research Intern, DST Program</h4>
-            <p>Developed prediction models linking cognitive health to dementia using principal component analysis and
-              non-parametric smoothing</p>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  
-  
-
-  <!-- projects -->
-  <div id="projects" class="container">
-    <hr>
-    <div class="header" onclick="toggleContent()">
-      <div class="colapse-row">
-        <span class="triangle"></span>
-        <div class="ctitle">Projects</div>
-      </div>
-    </div>
-
-    <div class="content">
-      <div class="grid-container">
-
-        <div class="pcard">
-          <img src="./assets/images/tree_pcd.png" alt="Tree Carbon Stock Segmentation" style="width:100%; max-height: 110px; border-radius: 10px 10px 0 0;">
-          <div class="pcontainer">
-            <h4><b>Carbon Stock Segmentation</b></h4><br>
-            <p style="font-size: 12px;">A study on calculating the carbon stock of a Tree at GRASP Labs advised by Professor Vijay Kumar, Ankit Prabhu</p>
-            <br>
-          </div>
-        </div>
-
-        <div class="pcard">
-          <img src="./assets/images/anon_twit.png" alt="Brain Segmentation Project Logo" style="width:100%; border-radius: 10px 10px 0 0;">
-          <div class="pcontainer">
-            <h4><b><a href="https://www.sigmaxi.org/news/news-archive/2023/11/15/student-researchers-awarded-inducted-at-ifore" style="text-decoration: none; color: inherit;">Analyzing Online Anonymity</a></b></h4><br>
-            <p style="font-size: 12px;">A research project to study technical Anonymity of an induvidual on the internet using data analysis methods</p>
-            <br>
-          </div>
-        </div>
-        
-        <div class="pcard">
-          <div style="text-align: center;"><img src="./assets/images/brain_segmentation.png" alt="Brain Segmentation Project Logo" style="width:75%; border-radius: 10px;"></div>
-          <div class="pcontainer">
-            <h4><b>Brain Segmentation</b></h4><br>
-            <p style="font-size: 12px;">A UNET based segmenetation project trained using the Decathelon Dataset, Google Vertex AI and MONAI</p><br>
-          </div>
-        </div>
-
-        <div class="pcard">
-          <div style="text-align: center;"><img src="./assets/images/SEC-C.png" alt="US SEC Dashboard" style="width:100%; min-height: 90px; border-radius: 10px 10px 0 0;"></div>
-          <div class="pcontainer">
-            <h4><b>US SEC Dashboard</b></h4><br>
-            <p style="font-size: 12px;">A financial dashboard that querries and visualizes data from the Securities & Exchange Commission</p><br>
-          </div>
-        </div>
-
-        <div class="pcard">
-          <div style="text-align: center;"><img src="./assets/images/pennos-pcb-sample-diagram.png" alt="pennos" style="width:100%; max-height: 90px; border-radius: 10px 10px 0 0;"></div>
-          <div class="pcontainer">
-            <h4><b>PennOS</b></h4><br>
-            <p style="font-size: 12px;">An operating system from scratch in C. Functionality includes a custom file system, context scheduler, and kernel/user level functions.</p><br>
-          </div>
-        </div>
-
-        <div class="pcard">
-          <div style="text-align: center;"><img src="./assets/images/tiktok-stock-analysis.png" alt="US SEC Dashboard" style="width:100%; max-height: 90px; border-radius: 10px 10px 0 0;"></div>
-          <div class="pcontainer">
-            <h4><b>Analysis of Stocks Mentioned on TikTok</b></h4><br>
-            <p style="font-size: 12px;">An evaluation of the performance of top mentioned stocks on tiktok against, S&P, 10-year treasury and the hedge fund equity long bias index</p><br>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-
-  <!-- teaching -->
-  <div class="experiences">
-    <hr>
-    <div class="header" onclick="toggleContent()">
-      <div class="colapse-row">
-        <span class="triangle"></span>
-        <div class="ctitle">Teaching</div>
-        <hr>
-      </div>
-    </div>
-    <div class="content">
-      <ul>
-
-        <li>
-          <a href="https://catalog.upenn.edu/courses/cis/#:~:text=CIS%C2%A04120%20Introduction%20to%20Human%20Computer%20Interaction" target="_blank">
-            <img src="./assets/images/upenn_logo.jpeg" alt="UPenn's logo"> 
-          </a>
-          <div class="experiences-content">
-           <timebox>2025</timebox>
-            <h2>CIS 5800 Teaching Assistant</h2>
-            <time-line></time-line>
-            <h4>University of Pennsylvania, <i>Dr. Lingie Liu</i></h4>
-            <p>Machine Perception</p>
-          </div>
-        </li>
-
-        <li>
-          <a href="https://catalog.upenn.edu/courses/cis/#:~:text=CIS%C2%A04120%20Introduction%20to%20Human%20Computer%20Interaction" target="_blank">
-            <img src="./assets/images/upenn_logo.jpeg" alt="UPenn's logo"> 
-          </a>
-          <div class="experiences-content">
-           <timebox>2025</timebox>
-            <h2>CIS 5120 Head Teaching Assistant</h2>
-            <time-line></time-line>
-            <h4>University of Pennsylvania, <i>Dr. Andrew Head</i></h4>
-            <p>Human Computer Interaction</p>
-          </div>
-        </li>
-
-        <li>
-          <a href="https://catalog.upenn.edu/courses/cis/#:~:text=CIS%C2%A04120%20Introduction%20to%20Human%20Computer%20Interaction" target="_blank">
-            <img src="./assets/images/upenn_logo.jpeg" alt="UPenn's logo"> 
-          </a>
-          <div class="experiences-content">
-           <timebox>2024</timebox>
-            <h2>CIS 5120 Head Teaching Assistant</h2>
-            <time-line></time-line>
-            <h4>University of Pennsylvania, <i>Dr. Danaë Metaxa</i></h4>
-            <p>Human Computer Interaction</p>
-          </div>
-        </li>
-
-        <li>
-          <a href="https://fisher.wharton.upenn.edu/integrate/immersive/" target="_blank">
-            <img src="./assets/images/m&t_logo.png" alt="UPenn's logo"> 
-          </a>
-          <div class="experiences-content">
-            <time-line></time-line>
-            <timebox>2024</timebox>
-            <h2>M&T Immersive Teaching Assistant</h2>
-            <h4>University of Pennsylvania</h4>
-            <p>Annual Jerome Fisher Management & Technology Immersive Weekend teaching assistant visiting Tesla, Visa Lab & other M&T alumni</p>
-          </div>
-        </li>
-
-        <li>
-          <a href="https://catalog.upenn.edu/courses/cis/#:~:text=CIS%C2%A04120%20Introduction%20to%20Human%20Computer%20Interaction" target="_blank">
-            <img src="./assets/images/upenn_logo.jpeg" alt="UPenn's logo"> 
-          </a>
-          <div class="experiences-content">
-            <time-line></time-line>
-            <timebox>2024</timebox>
-            <h2>CIS 5120 Teaching Assistant</h2>
-            <h4>University of Pennsylvania, <i>Dr. Andrew Head</i></h4>
-            <p>Human Computer Interaction</p>
-          </div>
-        </li>
-
-        <li>
-          <a href="https://catalog.upenn.edu/courses/cis/#:~:text=CIS%C2%A02400%20Introduction%20to%20Computer%20Systems" target="_blank">
-            <img src="./assets/images/upenn_logo.jpeg" alt="UPenn's logo"> 
-          </a>
-          <div class="experiences-content">
-            <time-line></time-line>
-            <timebox>2023</timebox>
-            <h2>CIS 2400 Teaching Assistant</h2>
-            <h4>University of Pennsylvania, <i>Dr. Benjamin Lee</i></h4>
-            <p>Computer Architecture</p>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <footer>
-    <hr>
-    <p>Designed with ❤ by Aishwarya Balaji</p>
-  </footer>
-
-    <script src="components/script.js"></script>
-    </body>
+</body>
 </html>

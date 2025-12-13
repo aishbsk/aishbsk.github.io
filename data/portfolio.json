@@ -1,0 +1,179 @@
+{
+  "personal": {
+    "name": "Aishwarya Balaji",
+    "title": "CS & Econ @ UPenn (M&T)",
+    "tagline": "I'm a graduate of the University of Pennsylvania's M&T Program (CS BSE & Finance at Wharton) with a masters degree in CS. I've built ML, path planning, geospatial, and systems services.",
+    "avatar": "./assets/images/profile_pic.png",
+    "social": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/aishbsk/",
+        "icon": "linkedin"
+      },
+      {
+        "platform": "GitHub", 
+        "url": "https://github.com/aishbsk",
+        "icon": "github"
+      }
+    ],
+    "navigation": [
+      { "label": "Experience", "href": "#experience" },
+      { "label": "Education", "href": "#education" },
+      { "label": "Teaching", "href": "#teaching" },
+      { "label": "Articles", "href": "#articles" }
+    ]
+  },
+  "experience": [
+    {
+      "year": "2024",
+      "company": "Amazon — Prime Air",
+      "url": "https://www.aboutamazon.com/news/tag/prime-air",
+      "role": "SDE Intern · Environment Modeling & Mapping",
+      "description": "Built core tooling used across 5+ teams to access, inspect, and visualize diverse geospatial data sources.",
+      "logo": "./assets/images/amazon_logo.jpeg"
+    },
+    {
+      "year": "2023", 
+      "company": "Amazon — Prime Air",
+      "url": "https://www.aboutamazon.com/news/tag/prime-air",
+      "role": "SDE Intern · Path Planning",
+      "description": "Researched & implemented path-planning strategies (visuals presented at IROS). Improved mission testing capabilities.",
+      "logo": "./assets/images/amazon_logo.jpeg"
+    },
+    {
+      "year": "2022",
+      "company": "Google",
+      "url": "https://research.google/outreach/csrmp/",
+      "role": "CS Research Mentorship Program", 
+      "description": "Paired with Google researchers; Invited back for alumni panel, Google's PhD Summit, and Research@NYC.",
+      "logo": "./assets/images/google_logo.jpeg"
+    },
+    {
+      "year": "2021",
+      "company": "National Youth Science Camp",
+      "url": "https://www.nysacademy.org/congrats-to-the-2021-delegates-representing-north-carolina/",
+      "role": "North Carolina Delegate",
+      "description": "Represented NC; Presented research findings and introduced a guest lecturer.",
+      "logo": "./assets/images/NYCS_Logo.jpeg"
+    },
+    {
+      "year": "2021",
+      "company": "FinTech Focus — Bank of America Cohort", 
+      "url": "https://www.goldmansachs.com/careers/blog/posts/fintech-focus.html",
+      "role": "Fellow",
+      "description": "Built a financial sentiment visualization linking social sources via API.",
+      "logo": "./assets/images/bank_of_america_logo.jpeg"
+    },
+    {
+      "year": "2020",
+      "company": "Apple — Engineering & Technology Program",
+      "url": "https://www.theverge.com/2017/8/4/16092248/apple-engineering-technology-summer-camp-kids-product-design", 
+      "role": "Participant (1 of 25 nationally)",
+      "description": "Explored engineering at Apple; Collaborated with SWE, MEAM, CE engineers to build a product.",
+      "logo": "./assets/images/apple_logo.jpeg"
+    },
+    {
+      "year": "2019–20",
+      "company": "North Carolina State University — DST Program",
+      "url": "https://datascience.ericchi.com/",
+      "role": "Data Science Research Intern", 
+      "description": "Modeled links between cognitive health and dementia using PCA and non-parametric smoothing.",
+      "logo": "./assets/images/ncsu_logo.jpeg"
+    }
+  ],
+  "education": [
+    {
+      "year": "2024–25",
+      "institution": "School of Engineering & Applied Science",
+      "degree": "M.S.E. Computer Science",
+      "location": "Philadelphia, PA",
+      "logo": "./assets/images/upenn_logo.jpeg"
+    },
+    {
+      "year": "2021–25",
+      "institution": "School of Engineering & Applied Science", 
+      "degree": "B.S.E. Computer Science",
+      "location": "Philadelphia, PA",
+      "description": "Jerome Fisher Management & Technology Program",
+      "logo": "./assets/images/upenn_logo.jpeg"
+    },
+    {
+      "year": "2021–25",
+      "institution": "The Wharton School",
+      "degree": "B.S. in Economics, Finance",
+      "location": "Philadelphia, PA", 
+      "logo": "./assets/images/upenn_logo.jpeg"
+    }
+  ],
+  "teaching": [
+    {
+      "year": "2025",
+      "course": "CIS 5800 — Machine Perception",
+      "role": "Teaching Assistant",
+      "institution": "University of Pennsylvania",
+      "instructor": "Dr. Lingjie Liu",
+      "description": "Assisted with course content and student projects in machine perception.",
+      "logo": "./assets/images/upenn_logo.jpeg"
+    },
+    {
+      "year": "2025",
+      "course": "CIS 5120 — Human-Computer Interaction", 
+      "role": "Head Teaching Assistant",
+      "institution": "University of Pennsylvania",
+      "instructor": "Dr. Andrew Head",
+      "description": "Led TA team; coordinated assignments, rubrics, and student support.",
+      "logo": "./assets/images/upenn_logo.jpeg"
+    },
+    {
+      "year": "2024",
+      "course": "CIS 5120 — Human-Computer Interaction",
+      "role": "Head Teaching Assistant",
+      "institution": "University of Pennsylvania", 
+      "instructor": "Dr. Danaë Metaxa",
+      "description": "Course operations and pedagogy for HCI.",
+      "logo": "./assets/images/upenn_logo.jpeg"
+    },
+    {
+      "year": "2024",
+      "course": "M&T Immersive",
+      "role": "Teaching Assistant",
+      "institution": "University of Pennsylvania",
+      "description": "Annual Jerome Fisher M&T Immersive weekend; site visits incl. Tesla and Visa Lab.",
+      "logo": "./assets/images/m&t_logo.png"
+    },
+    {
+      "year": "2024", 
+      "course": "CIS 5120 — Human-Computer Interaction",
+      "role": "Teaching Assistant",
+      "institution": "University of Pennsylvania",
+      "instructor": "Dr. Andrew Head",
+      "description": "Supported lectures, studio, and evaluations.",
+      "logo": "./assets/images/upenn_logo.jpeg"
+    },
+    {
+      "year": "2023",
+      "course": "CIS 2400 — Computer Architecture",
+      "role": "Teaching Assistant", 
+      "institution": "University of Pennsylvania",
+      "instructor": "Dr. Benjamin Lee",
+      "description": "Helped students with pipeline design, caching, and performance analysis.",
+      "logo": "./assets/images/upenn_logo.jpeg"
+    }
+  ],
+  "articles": [
+    {
+      "title": "Why You Should Care About Partial Differential Equations (PDEs)",
+      "date": "December 12, 2024",
+      "url": "https://huggingface.co/blog/hugging-science/pde",
+      "description": "Machine learning based-solvers like PINNs and Neural Operators accelerate approximate solutions to PDEs. However, the community's efforts remain scattered. Hugging Science is working to centralize PDE solvers across tasks.",
+      "tags": ["Machine Learning", "PDE"],
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/65de89b117d90ff4417de83f/jvyeeLUfxtBjqBvj4uO9Y.jpeg",
+      "publisher": "Published on Hugging Face"
+    }
+  ],
+  "meta": {
+    "title": "Aishwarya Balaji — CS & Econ @ UPenn (M&T)",
+    "description": "University of Pennsylvania M&T (CS & Finance). Builds ML, geospatial, and systems tools; Prev @ Amazon Prime Air, GRASP, Apple, Google.",
+    "footer": "Designed by Aishwarya Balaji"
+  }
+}

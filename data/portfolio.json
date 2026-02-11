@@ -11,7 +11,7 @@
         "icon": "linkedin"
       },
       {
-        "platform": "GitHub", 
+        "platform": "GitHub",
         "url": "https://github.com/aishbsk",
         "icon": "github"
       }
@@ -33,7 +33,7 @@
       "logo": "./assets/images/amazon_logo.jpeg"
     },
     {
-      "year": "2023", 
+      "year": "2023",
       "company": "Amazon — Prime Air",
       "url": "https://www.aboutamazon.com/news/tag/prime-air",
       "role": "SDE Intern · Path Planning",
@@ -44,7 +44,7 @@
       "year": "2022",
       "company": "Google",
       "url": "https://research.google/outreach/csrmp/",
-      "role": "CS Research Mentorship Program", 
+      "role": "CS Research Mentorship Program",
       "description": "Paired with Google researchers; Invited back for alumni panel, Google's PhD Summit, and Research@NYC.",
       "logo": "./assets/images/google_logo.jpeg"
     },
@@ -58,7 +58,7 @@
     },
     {
       "year": "2021",
-      "company": "FinTech Focus — Bank of America Cohort", 
+      "company": "FinTech Focus — Bank of America Cohort",
       "url": "https://www.goldmansachs.com/careers/blog/posts/fintech-focus.html",
       "role": "Fellow",
       "description": "Built a financial sentiment visualization linking social sources via API.",
@@ -67,7 +67,7 @@
     {
       "year": "2020",
       "company": "Apple — Engineering & Technology Program",
-      "url": "https://www.theverge.com/2017/8/4/16092248/apple-engineering-technology-summer-camp-kids-product-design", 
+      "url": "https://www.theverge.com/2017/8/4/16092248/apple-engineering-technology-summer-camp-kids-product-design",
       "role": "Participant (1 of 25 nationally)",
       "description": "Explored engineering at Apple; Collaborated with SWE, MEAM, CE engineers to build a product.",
       "logo": "./assets/images/apple_logo.jpeg"
@@ -76,7 +76,7 @@
       "year": "2019–20",
       "company": "North Carolina State University — DST Program",
       "url": "https://datascience.ericchi.com/",
-      "role": "Data Science Research Intern", 
+      "role": "Data Science Research Intern",
       "description": "Modeled links between cognitive health and dementia using PCA and non-parametric smoothing.",
       "logo": "./assets/images/ncsu_logo.jpeg"
     }
@@ -91,7 +91,7 @@
     },
     {
       "year": "2021–25",
-      "institution": "School of Engineering & Applied Science", 
+      "institution": "School of Engineering & Applied Science",
       "degree": "B.S.E. Computer Science",
       "location": "Philadelphia, PA",
       "description": "Jerome Fisher Management & Technology Program",
@@ -101,7 +101,7 @@
       "year": "2021–25",
       "institution": "The Wharton School",
       "degree": "B.S. in Economics, Finance",
-      "location": "Philadelphia, PA", 
+      "location": "Philadelphia, PA",
       "logo": "./assets/images/upenn_logo.jpeg"
     }
   ],
@@ -117,7 +117,7 @@
     },
     {
       "year": "2025",
-      "course": "CIS 5120 — Human-Computer Interaction", 
+      "course": "CIS 5120 — Human-Computer Interaction",
       "role": "Head Teaching Assistant",
       "institution": "University of Pennsylvania",
       "instructor": "Dr. Andrew Head",
@@ -128,9 +128,9 @@
       "year": "2024",
       "course": "CIS 5120 — Human-Computer Interaction",
       "role": "Head Teaching Assistant",
-      "institution": "University of Pennsylvania", 
+      "institution": "University of Pennsylvania",
       "instructor": "Dr. Danaë Metaxa",
-      "description": "Course operations and pedagogy for HCI.",
+      "description": "Led TA team; coordinated assignments, rubrics, and student support.",
       "logo": "./assets/images/upenn_logo.jpeg"
     },
     {
@@ -142,7 +142,7 @@
       "logo": "./assets/images/m&t_logo.png"
     },
     {
-      "year": "2024", 
+      "year": "2024",
       "course": "CIS 5120 — Human-Computer Interaction",
       "role": "Teaching Assistant",
       "institution": "University of Pennsylvania",
@@ -153,17 +153,17 @@
     {
       "year": "2023",
       "course": "CIS 2400 — Computer Architecture",
-      "role": "Teaching Assistant", 
+      "role": "Teaching Assistant",
       "institution": "University of Pennsylvania",
       "instructor": "Dr. Benjamin Lee",
-      "description": "Helped students with pipeline design, caching, and performance analysis.",
+      "description": "Helped students with von neumann model, pipeline design, and caching.",
       "logo": "./assets/images/upenn_logo.jpeg"
     }
   ],
   "articles": [
     {
       "title": "Why You Should Care About Partial Differential Equations (PDEs)",
-      "date": "December 12, 2024",
+      "date": "December 12, 2025",
       "url": "https://huggingface.co/blog/hugging-science/pde",
       "description": "Machine learning based-solvers like PINNs and Neural Operators accelerate approximate solutions to PDEs. However, the community's efforts remain scattered. Hugging Science is working to centralize PDE solvers across tasks.",
       "tags": ["Machine Learning", "PDE"],
